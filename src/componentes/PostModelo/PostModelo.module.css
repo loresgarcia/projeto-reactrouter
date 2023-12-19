@@ -9,21 +9,21 @@
 }
 
 .fotoCapa {
-    width: 100%;
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     opacity: 0.3;
     position: absolute;
     top: 0;
+    width: 100%;
     z-index: -1;
 }
 
 .titulo {
-    font-family: var(--fonte-secundaria);
-    padding: 0 7.5rem;
-    font-size: 4rem;
-    display: flex;
     align-items: center;
+    display: flex;
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    padding: 0 7.5rem;
 }
 
 .postConteudoContainer {
@@ -44,8 +44,8 @@
     }
 
     .titulo {
-        padding: 0 1rem;
         font-size: 2rem;
+        padding: 0 1rem;
     }
 
     .postConteudoContainer {

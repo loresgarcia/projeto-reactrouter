@@ -6,20 +6,20 @@
 }
 
 .post-markdown-container h3 {
-    margin-bottom: 2rem;
     font-size: 2.5rem;
+    margin-bottom: 2rem;
 }
 
 .post-markdown-container h4 {
-    margin-bottom: 1.5rem;
     font-size: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 .post-markdown-container p {
-    text-align: justify;
     font-size: 1.5rem;
     line-height: 2.25rem;
     margin-bottom: 1.5rem;
+    text-align: justify;
 }
 
 .post-markdown-container a {
@@ -37,16 +37,16 @@
 }
 
 .post-markdown-container ul>li {
-    margin-bottom: 1rem;
     list-style: disc;
+    margin-bottom: 1rem;
 }
 
 .post-markdown-container pre,
 .post-markdown-container blockquote {
-    margin-bottom: 1.5rem;
-    padding: 1rem;
     background-color: #eaeaea;
     border-radius: 5px;
+    margin-bottom: 1.5rem;
+    padding: 1rem;
 }
 
 .post-markdown-container pre {

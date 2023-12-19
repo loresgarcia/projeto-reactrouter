@@ -1,7 +1,7 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 :root {
@@ -18,14 +18,14 @@
 
 #root {
   display: grid;
-  grid-template-rows: auto 1fr auto;
   grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: auto 1fr auto;
   min-height: 100vh;
 }
 
 a, button, input, textarea {
-  font: inherit;
   color: inherit;
+  font: inherit;
 }
 
 button {

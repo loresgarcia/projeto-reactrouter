@@ -1,14 +1,14 @@
 .conteudoContainer {
-    position: relative;
-    text-align: center;
     background-color: var(--azul-escuro);
     color: var(--branco);
     padding: 0 1.5rem 6.5rem;
+    position: relative;
+    text-align: center;
 }
 
 .texto404 {
-    display: block;
     color: var(--azul-medio);
+    display: block;
     font-family: var(--fonte-secundaria);
     font-size: 6rem;
     font-weight: 700;
@@ -27,15 +27,15 @@
 }
 
 .botaoContainer {
-    text-align: start;
-    margin-top: 3.5rem;
     margin-left: 30vw;
+    margin-top: 3.5rem;
+    text-align: start;
 }
 
 .imagemCachorro {
-    position: absolute;
-    height: 25vw;
     bottom: calc(-25vw * 0.5);
+    height: 25vw;
+    position: absolute;
 }
 
 .espacoEmBranco {
@@ -48,13 +48,13 @@
     }
 
     .botaoContainer {
-        margin-top: 2.75rem;
         margin-left: 15vw;
+        margin-top: 2.75rem;
     }
 
     .imagemCachorro {
-        height: 50vw;
         bottom: calc(-50vw * 0.65);
+        height: 50vw;
         left: 40vw;
     }
 
@@ -88,13 +88,13 @@
     }
 
     .imagemCachorro {
-        position: absolute;
-        margin: 0 auto;
-        left: 0;
-        right: 0;
-        height: 94vw;
         bottom: calc(-94vw * 0.3);
+        height: 94vw;
+        left: 0;
+        margin: 0 auto;
         max-height: 375px;
+        position: absolute;
+        right: 0;
     }
 
     .espacoEmBranco {

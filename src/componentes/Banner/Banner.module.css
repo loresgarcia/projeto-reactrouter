@@ -1,16 +1,16 @@
 .banner {
-    padding: 3rem 7.5rem 6.25rem;
     background-color: var(--azul-escuro);
     color: var(--branco);
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 3rem 7.5rem 6.25rem;
 }
 
 .titulo {
     font-family: var(--fonte-secundaria);
     font-size: 4rem;
-    margin-top: 4.875rem;
     margin-bottom: 2rem;
+    margin-top: 4.875rem;
 }
 
 .paragrafo {
@@ -21,22 +21,22 @@
 }
 
 .imagens {
-    position: relative;
     height: 406px;
+    position: relative;
 }
 
 .imagens>.minhaFoto {
+    border-radius: 50%;
+    bottom: 0;
     position: absolute;
     right: 0;
-    bottom: 0;
     width: 18vw;
-    border-radius: 50%;
 }
 
 .imagens>.circuloColorido {
+    bottom: 2.2vw;
     position: absolute;
     right: 7vw;
-    bottom: 2.2vw;
     width: 25vw;
 }
 
@@ -70,8 +70,8 @@
 
 @media (max-width: 744px) {
     .banner {
-        padding: 2rem 1rem;
         display: block;
+        padding: 2rem 1rem;
     }
 
     .titulo {
@@ -89,17 +89,17 @@
     .imagens>.minhaFoto,
     .imagens>.circuloColorido {
         left: 0;
-        right: 0;
         margin: 0 auto;
+        right: 0;
     }
 
     .imagens>.minhaFoto {
-        width: 170px;
         transform: translate(5rem, 0px);
+        width: 170px;
     }
 
     .imagens>.circuloColorido {
-        width: 240px;
         transform: translate(-1.5rem, 0px);
+        width: 240px;
     }
 }

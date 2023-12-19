@@ -1,9 +1,9 @@
 .navegacao {
-    height: 112px;
-    display: flex;
-    justify-content: center;
     align-items: center;
     column-gap: 3rem;
+    display: flex;
+    height: 112px;
+    justify-content: center;
 }
 
  
