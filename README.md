@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+# Projeto React com react-router-dom
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é um projeto simples desenvolvido para explorar e aprender os principais recursos do `react-router-dom`, uma biblioteca popular para gerenciamento de rotas em aplicações React.
 
-## Available Scripts
+## Objetivos do Projeto
 
-In the project directory, you can run:
+1. **Conhecendo o React Router Dom:**
+   - Familiarize-se com os conceitos básicos do `react-router-dom`.
+   - Entenda como ele facilita a navegação e o roteamento em aplicações React.
 
-### `npm start`
+2. **SPA (Single Page Application):**
+   - Compreenda o que é uma Single Page Application (SPA) e por que ela é útil.
+   - Explore como o `react-router-dom` contribui para a criação de SPAs.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. **Rotas Aninhadas e Dinâmicas:**
+   - Aprenda a lidar com rotas aninhadas para organizar melhor a estrutura da sua aplicação.
+   - Resolva problemas com rotas dinâmicas para tornar sua aplicação mais flexível.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+4. **Explorando Hooks do `react-router-dom`:**
+   - Utilize hooks como `useLocation` para acessar informações da rota atual.
+   - Aprenda a usar o `useParams` para obter parâmetros dinâmicos da URL.
 
-### `npm test`
+## Demonstração
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Coloquei uma breve demonstração em formato de GIF para visualizar a aplicação em ação.
 
-### `npm run build`
+![Demo](https://i.imgur.com/dhUflUo.mp4)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Como Iniciar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. **Instalação de Dependências:**
+   Execute o seguinte comando para instalar as dependências necessárias:
 
-### `npm run eject`
+   ```bash
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. **Rodando a Aplicação:**
+   Inicie a aplicação com o comando:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```bash
+   npm start
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   Acesse [http://localhost:3000](http://localhost:3000) no seu navegador para visualizar a aplicação.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Estrutura do Projeto
 
-## Learn More
+O projeto possui uma estrutura básica que inclui componentes para diferentes rotas e exemplos de uso dos recursos do `react-router-dom`. Sinta-se à vontade para explorar e modificar conforme necessário.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Recursos Utilizados
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **React:** Biblioteca JavaScript para construção de interfaces de usuário.
+- **React Router Dom:** Biblioteca para gerenciamento de rotas em aplicações React.
 
-### Code Splitting
+## Contribuições
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Contribuições são bem-vindas! Se você encontrar problemas ou tiver sugestões para melhorar este projeto, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-### Analyzing the Bundle Size
+## Licença
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
