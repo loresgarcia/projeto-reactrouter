@@ -20,11 +20,11 @@ Este é um projeto simples desenvolvido para explorar e aprender os principais r
    - Utilize hooks como `useLocation` para acessar informações da rota atual.
    - Aprenda a usar o `useParams` para obter parâmetros dinâmicos da URL.
 
-## Demonstração
+<!-- ## Demonstração
 
 Coloquei uma breve demonstração em formato de GIF para visualizar a aplicação em ação.
 
-![Demonstração](https://imgur.com/a/ZqEehIF)
+![Demonstração](https://imgur.com/a/ZqEehIF) -->
 
 ---
 
