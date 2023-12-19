@@ -24,7 +24,7 @@ Este é um projeto simples desenvolvido para explorar e aprender os principais r
 
 Coloquei uma breve demonstração em formato de GIF para visualizar a aplicação em ação.
 
-[img]http://i.imgur.com/dhUflUoh.gif[/img]
+![img]http://i.imgur.com/dhUflUoh.gif[/img]
 
 ---
 
